@@ -33,3 +33,10 @@ section {
 .inline_toc{
   display:block; !important
 }
+
+.inline_toc li {
+    width: inherit; 
+    float: inherit; 
+    border-right: none;
+    height: auto; 
+}
