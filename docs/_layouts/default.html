@@ -39,7 +39,7 @@
         {% endif %}
         
         <p class="view">Contents: </p>
-        {% include toc.html html=content sanitize=true ordered=true class="inline_toc" id="my_toc" h_min=3 h_max=5 %}
+        {% include toc.html html=content sanitize=true ordered=false class="inline_toc" id="my_toc" h_min=3 h_max=5 %}
 
       </header>
       <section>
@@ -49,9 +49,9 @@
       </section>
       <footer>
         {% if site.github.is_project_page %}
-        <p>Maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        <p>Written by <a href="http://teresa-kubacka.com/">Teresa Kubacka</a></p>
         {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a>, modified by TK</small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
