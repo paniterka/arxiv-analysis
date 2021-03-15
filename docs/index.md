@@ -1,13 +1,10 @@
-## Welcome to GitHub Pages
+## Mining the Arxiv
 
-You can use the [editor on GitHub](https://github.com/paniterka/arxiv-analysis/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+Data Source: [Arxiv Metadata dump](https://www.kaggle.com/Cornell-University/arxiv). 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Insight 1
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+Text
 ```markdown
 Syntax highlighted code block
 
